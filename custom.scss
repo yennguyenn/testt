@@ -1,0 +1,86 @@
+/* reset margin, padding  */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.red {
+    border: 1px solid red;
+}
+.green {
+    border: 1px solid green;
+}
+.banner {
+    height: 100vh;
+    width: 100%;
+    background: url(./banner.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    .about-sign-in {
+        height: 80px;
+        width: 100%;
+        text-align: right;
+        .about, .sign-in {
+            display: inline-block;
+            text-decoration: none; 
+            margin-top: 15px;
+            padding:10px 15px;
+            text-transform: uppercase;
+            color:brown ;
+        }
+        .sign-in {
+        margin-right: 60px;
+        margin-left: 25px;
+        border-radius: 20px;
+        border: 1px solid rgb(105, 105, 43);
+        }
+    }
+    
+    .option {
+        height: 80px;
+        width: 100%;
+        text-align: left;
+    }
+    .content-center {
+        height: 50px;
+        border: 1px solid red;
+    }
+    .logo {
+        background: url('./logo.png') center center no-repeat;
+        margin-top: 40px;
+        height: 100px;
+    }
+    .text {
+        text-align: center;
+        margin-top: 30px;
+        .text span {
+            color: green;
+            font-size: 40px;
+        }
+    }
+    .btn-start-now {
+        text-align: center;
+        .button {
+            text-transform: uppercase;
+            padding: 10px 15px;
+            border-radius: 20px;
+            border: 1px solid rgb(105, 105, 43);
+            margin-top: 25px;
+            cursor: pointer;
+        
+        }
+        
+    }
+}
+
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: aliceblue;
+} */
+.span {
+    display: block;
+    font-size: 20px;
+}
